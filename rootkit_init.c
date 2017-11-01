@@ -236,12 +236,12 @@ asmlinkage long new_sys_read(unsigned int fd, char __user *buf, size_t count)
                     kernel_buf[i+3] == 'l' &&
                     kernel_buf[i+4] == 'd' &&
                     kernel_buf[i+5] == '!') {
-                    kernel_buf[i] = 'M';
-                    kernel_buf[i+1] = 'r';
-                    kernel_buf[i+2] = 'r';
-                    kernel_buf[i+3] = 'r';
-                    kernel_buf[i+4] = 'g';
-                    kernel_buf[i+5] = 'n';
+                    kernel_buf[i] = 'H';
+                    kernel_buf[i+1] = 'a';
+                    kernel_buf[i+2] = 'c';
+                    kernel_buf[i+3] = 'k';
+                    kernel_buf[i+4] = 'e';
+                    kernel_buf[i+5] = 'd';
                 }
             }
 
